@@ -1,0 +1,183 @@
+Start testing: Oct 20 04:51 UTC
+----------------------------------------------------------
+1/4 Testing: q_01_tests
+1/4 Test: q_01_tests
+Command: "/workspaces/midterm-DanielCardenas94/new_build_dir/test/question_test_1/q_01_tests" "-s"
+Directory: /workspaces/midterm-DanielCardenas94/new_build_dir/test/question_test_1
+"q_01_tests" start time: Oct 20 04:51 UTC
+Output:
+----------------------------------------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+q_01_tests is a Catch v2.13.9 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Verify Test Configuration
+-------------------------------------------------------------------------------
+/workspaces/midterm-DanielCardenas94/test/question_test_1/question_tests_1.cpp:5
+...............................................................................
+
+/workspaces/midterm-DanielCardenas94/test/question_test_1/question_tests_1.cpp:6: PASSED:
+  REQUIRE( true == true )
+
+-------------------------------------------------------------------------------
+test
+-------------------------------------------------------------------------------
+/workspaces/midterm-DanielCardenas94/test/question_test_1/question_tests_1.cpp:9
+...............................................................................
+
+/workspaces/midterm-DanielCardenas94/test/question_test_1/question_tests_1.cpp:11: PASSED:
+  REQUIRE( test_config() == true )
+with expansion:
+  true == true
+
+===============================================================================
+All tests passed (2 assertions in 2 test cases)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"q_01_tests" end time: Oct 20 04:51 UTC
+"q_01_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: q_02_tests
+2/4 Test: q_02_tests
+Command: "/workspaces/midterm-DanielCardenas94/new_build_dir/test/question_test_2/q_02_tests" "-s"
+Directory: /workspaces/midterm-DanielCardenas94/new_build_dir/test/question_test_2
+"q_02_tests" start time: Oct 20 04:51 UTC
+Output:
+----------------------------------------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+q_02_tests is a Catch v2.13.9 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Verify Test Configuration
+-------------------------------------------------------------------------------
+/workspaces/midterm-DanielCardenas94/test/question_test_2/question_tests_2.cpp:5
+...............................................................................
+
+/workspaces/midterm-DanielCardenas94/test/question_test_2/question_tests_2.cpp:6: PASSED:
+  REQUIRE( test_config() == true )
+with expansion:
+  true == true
+
+-------------------------------------------------------------------------------
+Test Fibonacci Sequence
+-------------------------------------------------------------------------------
+/workspaces/midterm-DanielCardenas94/test/question_test_2/question_tests_2.cpp:9
+...............................................................................
+
+/workspaces/midterm-DanielCardenas94/test/question_test_2/question_tests_2.cpp:10: PASSED:
+  REQUIRE( get_fib_sequence(5) == "0 1 1 2 3 5" )
+with expansion:
+  "0 1 1 2 3 5" == "0 1 1 2 3 5"
+
+/workspaces/midterm-DanielCardenas94/test/question_test_2/question_tests_2.cpp:11: FAILED:
+  REQUIRE( get_fib_sequence(7) == "0 1 1 2 3 5 8" )
+with expansion:
+  "0 1 1 2 3 5 8 13" == "0 1 1 2 3 5 8"
+
+===============================================================================
+test cases: 2 | 1 passed | 1 failed
+assertions: 3 | 2 passed | 1 failed
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"q_02_tests" end time: Oct 20 04:51 UTC
+"q_02_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: q_03_tests
+3/4 Test: q_03_tests
+Command: "/workspaces/midterm-DanielCardenas94/new_build_dir/test/question_test_3/q_03_tests" "-s"
+Directory: /workspaces/midterm-DanielCardenas94/new_build_dir/test/question_test_3
+"q_03_tests" start time: Oct 20 04:51 UTC
+Output:
+----------------------------------------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+q_03_tests is a Catch v2.13.9 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Verify Test Configuration
+-------------------------------------------------------------------------------
+/workspaces/midterm-DanielCardenas94/test/question_test_3/question_tests_3.cpp:5
+...............................................................................
+
+/workspaces/midterm-DanielCardenas94/test/question_test_3/question_tests_3.cpp:6: PASSED:
+  REQUIRE( true == true )
+
+-------------------------------------------------------------------------------
+test
+-------------------------------------------------------------------------------
+/workspaces/midterm-DanielCardenas94/test/question_test_3/question_tests_3.cpp:9
+...............................................................................
+
+/workspaces/midterm-DanielCardenas94/test/question_test_3/question_tests_3.cpp:11: PASSED:
+  REQUIRE( test_config() == true )
+with expansion:
+  true == true
+
+===============================================================================
+All tests passed (2 assertions in 2 test cases)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"q_03_tests" end time: Oct 20 04:51 UTC
+"q_03_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: q_04_tests
+4/4 Test: q_04_tests
+Command: "/workspaces/midterm-DanielCardenas94/new_build_dir/test/question_test_4/q_04_tests" "-s"
+Directory: /workspaces/midterm-DanielCardenas94/new_build_dir/test/question_test_4
+"q_04_tests" start time: Oct 20 04:51 UTC
+Output:
+----------------------------------------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+q_04_tests is a Catch v2.13.9 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Verify Test Configuration
+-------------------------------------------------------------------------------
+/workspaces/midterm-DanielCardenas94/test/question_test_4/question_tests_4.cpp:5
+...............................................................................
+
+/workspaces/midterm-DanielCardenas94/test/question_test_4/question_tests_4.cpp:6: PASSED:
+  REQUIRE( true == true )
+
+-------------------------------------------------------------------------------
+test
+-------------------------------------------------------------------------------
+/workspaces/midterm-DanielCardenas94/test/question_test_4/question_tests_4.cpp:9
+...............................................................................
+
+/workspaces/midterm-DanielCardenas94/test/question_test_4/question_tests_4.cpp:11: PASSED:
+  REQUIRE( test_config() == true )
+with expansion:
+  true == true
+
+===============================================================================
+All tests passed (2 assertions in 2 test cases)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"q_04_tests" end time: Oct 20 04:51 UTC
+"q_04_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 20 04:51 UTC
