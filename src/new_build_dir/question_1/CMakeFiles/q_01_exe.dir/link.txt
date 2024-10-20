@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/q_01_exe.dir/main.cpp.o -o q_01_exe  libq_01_library.a
